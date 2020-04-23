@@ -20,7 +20,7 @@ function preload() {
 
   intro = loadImage('01-whisker.png');
   ready = loadImage('01-whisk.gif');
-  learn = loadImage('02-knead.png');
+  learn = loadImage('dough.gif');
   fan = loadImage('res-fan.gif');
   thorn = loadImage('thorn.gif');
 
