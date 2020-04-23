@@ -65,6 +65,8 @@ function draw()
           image(fan, 350, 50);
         }
         else if (state == 4) {
+          
+          background(0);
           image(thorn, 350, 50);
         }
 
@@ -120,6 +122,8 @@ function draw()
           image(fan, 200, 0);
         }
         else if (nextState == 4) {
+          
+          background(0);
           image(thorn, 200, 0);
         }
 
@@ -219,6 +223,8 @@ function keyTyped() {
     }
     
     else if (typed == 'run'){
+      
+      
       nextState = 4;
       typed = '';
       
